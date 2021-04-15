@@ -48,10 +48,12 @@
       smoothTolerance=".01"
       smoothThreshold="5"
     >
-
+        <a-assets>
+          <a-asset-item id="object" src="/object.gltf"></a-asset-item>
+        </a-assets>
         <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
         <a-entity
-        gltf-model='url(/object.gltf)'
+        gltf-model="#object"
         scale="50 50 50"
         position="50 50 50"
         >
