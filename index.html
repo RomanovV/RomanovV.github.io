@@ -16,7 +16,15 @@
     displayWidth: 1280;
     displayHeight: 960;
     debugUIEnabled: true;">
-      <a-marker-camera type='pattern' url='/pattern-uva.patt'>
+      <a-marker-camera 
+      type='pattern' 
+      url='/pattern-uva.patt' 
+      emitevents='true'
+      smooth="true"
+      smoothCount="5"
+      smoothTolerance="0.01"
+      smoothThreshold="2"
+      >
         <a-entity
           position="0 0 0"
           scale="0.05 0.05 0.05"
