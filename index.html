@@ -16,7 +16,6 @@
     displayWidth: 1280;
     displayHeight: 960;
     debugUIEnabled: false;">
-      <a-entity light="type: ambient; color: #CCC"></a-entity>
       <a-marker-camera 
       type='pattern' 
       url='/pattern-uva.patt' 
@@ -26,6 +25,7 @@
       smoothTolerance="0.01"
       smoothThreshold="2"
       >
+        <a-entity light="type: ambient; color: #CCC"></a-entity>
         <a-entity
           position="0 0 0"
           scale="35 35 35"
