@@ -16,18 +16,19 @@
     displayWidth: 1280;
     displayHeight: 960;
     debugUIEnabled: false;">
+      <a-entity light="type: ambient; color: #CCC"></a-entity>
       <a-marker-camera 
       type='pattern' 
       url='/pattern-uva.patt' 
       emitevents='true'
-      smooth="false"
+      smooth="true"
       smoothCount="5"
       smoothTolerance="0.01"
       smoothThreshold="2"
       >
         <a-entity
           position="0 0 0"
-          scale="30 30 30"
+          scale="35 35 35"
           gltf-model="/3D/BD_Nexina.gltf"
         ></a-entity>
       </a-marker-camera>
